@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LucidaSansUnicode';
+    src:  url('../fonts/LucidaSansUnicode-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url(../img/fon.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'helvetica_neueregular', Tahoma, Arial, sans-serif;
+    font-size: 20px;
+  }
+
+.wrapper{
+  width: 600px;
+  height: 300px;
+  margin: 85px 560px;
+  background-color: transparent;
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+  padding: 10px 5px 10px 10px;
+}
+
+
+form {
+	float: left;
+	margin: 30px auto;
+  padding: 25px auto;
+}
+
+form div {
+  clear: both;
+	text-align: right;
+	line-height: 30px;
+}
+
+label {
+	float: left;
+	padding-right: 10px;
+  font-family: 'LucidaSansUnicode', Tahoma, Arial, sans-serif;
+  color: #b9bab8;
+  font-style: italic;
+}
+
+input {
+	height: 25px;
+	float: left;
+	clear: both;
+  border-radius: 5px;
+  border-color: #def1fc;
+  font-size: 15px;
+}
+
+button {
+	clear: both;
+	float: left;
+	height: 25px;
+	width: 100px;
+}
+
+.hint {
+	display: none;
+	border: 1px solid gray;
+  border-radius: 7px;
+	margin-left: 18px;
+  font-family: Tahoma, Arial, sans-serif;
+  color: white;
+  font-style: italic;
+  font-size: 11px;
+  height: 25px;
+  padding-left: 10px;
+  font: bold 14px Verdana, Arial, sans-serif;
+}
+
+button{
+  height:30px;
+    width: 100px;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin:0;
+    padding:0;
+    color: #1C1C1C;
+    text-align: center;
+    font: bold 14px Verdana, Arial, sans-serif;
+    background: rgb(119, 136, 153);
+    background: -moz-linear-gradient(270deg, rgb(119, 136, 153) 18%, rgb(28, 134, 238) 73%);
+    background: -webkit-linear-gradient(270deg, rgb(119, 136, 153) 18%, rgb(28, 134, 238) 73%);
+    background: -o-linear-gradient(270deg, rgb(119, 136, 153) 18%, rgb(28, 134, 238) 73%);
+    background: -ms-linear-gradient(270deg, rgb(119, 136, 153) 18%, rgb(28, 134, 238) 73%);
+    background: linear-gradient(0deg, rgb(119, 136, 153) 18%, rgb(28, 134, 238) 73%);
+}

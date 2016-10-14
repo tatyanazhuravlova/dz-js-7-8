@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'helvetica_neueregular', Tahoma, Arial, sans-serif;
+	background-image: url(../img/city.jpg);
+}
+
+ul {
+    margin: 9px auto;
+    width: 99%;
+    height: 4px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+li {
+	list-style: none;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+	color: #f7f9f9;
+  font-size: 18px;
+}
+
+a:hover {
+   color: #182c47;  
+}
+
+p {
+  font-family: Tahoma, Arial, sans-serif;
+  margin-top: 10px;
+  font-size: 16px;
+  text-indent: 20px;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 30px auto;
+	background-color: #c2daff ;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+.tabs-menu {
+  background-color: #6ba2eb ;
+	margin: 5px auto;
+  padding-bottom: 3px;
+	width: 95%;
+	height: 25px;
+
+}
+
+.tab {
+	float: left;
+	width: 25%;
+  height: 100%;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #6ba2eb;
+	margin-right: 5px;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+.tab a  {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tab:hover {
+  background: #c2daff;
+}
+
+.tabs-menu:hover {
+  padding-bottom: 2px;
+  height: 26px;
+
+}
+ ul:hover {
+   border-bottom-color: transparent;
+}
+
+.tab-text {
+	margin: 15px;
+	clear: both;
+}
+
+#tab1{
+}
+
+#tab2{
+    display: none;
+}
+
+#tab3{
+    display: none;
+}
